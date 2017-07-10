@@ -1,0 +1,653 @@
+/*header的样式*/
+.header {
+	background: #FFFFFF url(../img/bg.jpg) repeat-x top;
+}
+
+.mainWrap {
+	width: 1000px;
+	margin: auto;
+	min-width: 320px;
+	display: block;
+}
+
+.header .topLine {
+	border-top: 7px solid #5c307d;
+}
+
+.header .topWrap {
+	height: 102px;
+}
+
+.logo {
+	float: left;
+	margin-top: 20px;
+}
+
+img {
+	border: 0px;
+	vertical-align: bottom;
+	/*设置元素垂直对齐方式*/
+}
+
+.header .search {
+	float: right;
+	display: block;
+}
+
+.header .search .ext {
+	padding: 16px 0 10px 0;
+	text-align: right;
+}
+
+a,
+a:link {
+	text-decoration: none;
+}
+
+.header .search .ext a {
+	color: #4d1379;
+	text-align: right;
+}
+
+form {
+	margin: 0;
+	display: block;
+}
+
+input {
+	background: #FFFFFF;
+	font-size: 12px;
+	outline: none;
+	-webkit-user-select: text;
+	cursor: auto;
+}
+
+.header .search .inp {
+	width: 140px;
+	height: 30px;
+	border: 1px solid #b1b1b1;
+	float: left;
+	padding: 0;
+	border-right: 0;
+}
+
+.header .search .searchbtn {
+	background: #5c307d;
+	height: 30px;
+	padding: 0 7px;
+	line-height: 29px;
+	text-align: center;
+	border: 0;
+	float: left;
+	font-size: 16px;
+	color: #FFFFFF;
+	cursor: pointer;
+	top: 0;
+}
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*102--150*/
+
+.navbar-collapse {
+	margin: 0;
+	padding: 0;
+}
+
+.header .navbar {
+	border-top: 1px solid #dedede;
+	margin-bottom: 0px;
+}
+
+.navbar-brand {
+	display: none;
+}
+
+.header .navbar .navbartitle {
+	float: left;
+	padding: 5px 2px 0px 0px;
+	position: relative;
+	zoom: 1;
+}
+.header .navbar .navbartitle:hover{
+	background: #5C307D;
+	color: #FFFFFF;
+}
+.header .navbar .dropdown-menu {
+	background: #5C307D;
+	padding: 0;
+	margin: 0;
+	color: #FFFFFF;
+	z-index: 1999;
+	border: 0px;
+}
+
+.header .navbar .dropdown-menu li a {
+	line-height: 38px;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding-left: 20px;
+}
+
+.dropdown-menu>li>a:hover {
+	color: #FFFFFF;
+	background: #4F608C;
+}
+
+.header .navbar .navbartitle {
+	display: block;
+	line-height: 42px;
+	font-size: 15px;
+	color: #333333;
+	padding: 0 14px;
+}
+
+/*article中的leftNav左边导航栏*/
+.content{
+	padding-bottom: 160px;
+}
+.content ul,.content li{
+	list-style-type: none;
+}
+.mainWrap {
+    width: 1000px;
+    margin: auto;
+    min-width: 320px;
+}
+.detailContent .column_1 {
+    width: 200px;
+    float: left;
+}
+.detailContent .leftNav {
+    border-left: 12px solid #5c307d;
+    position: relative;
+    top: -34px;
+    left: -12px;
+    width: 212px;
+}
+@media only screen and (max-width: 1800px){
+	.content .navbar-brand{
+		display: block;
+	}
+	.navbar-header {
+        float: none;
+    }
+}
+.detailContent .leftNav #submenu {
+    background: #5c307d;
+    color: #fff;
+    font-size: 22px;
+    line-height: 68px;
+    padding: 0 22px;
+    width: 200px;
+    height: 68px;
+}
+.detailContent .leftNav .yehei {
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    display: block;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.detailContent .leftNav .yehei .current1{
+	position: relative;
+    border-left: 4px solid #ff9600;
+    left: -4px;
+    color: #5C307D;
+}
+.detailContent .leftNav .yehei .current{
+	position: relative;
+	border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    line-height: 22px;	
+    
+}
+.detailContent .leftNav .yehei .current a{
+	color: #22132d;
+	padding: 1em 0 1em 22px;
+	display: block;   
+    margin-right: 28px;
+}
+.detailContent .leftNav .yehei li a:hover{
+	color: #5c307d;
+}
+.yehei .current span{
+	border-left: 1px solid #ddd;
+	position: absolute;
+    font-size: 10px;
+    color: #5c307d;
+    padding: 1.5em 4px;
+    cursor: pointer;
+    top: 0;
+    right: 0;
+    bottom: 0;
+}
+.yehei .list_1{
+	display: block;
+}
+.yehei .list{
+	display: none;
+	background: #f7f7f7;
+	padding-left: 0px;
+}
+.yehei .list li{
+	border-bottom: 0;
+    border-top: 1px solid #ddd;
+    font-size: 12px;
+    background: #FFFFFF;
+}
+.yehei .list li a{
+	padding: 11px 5px 11px 34px;
+    border: 0;
+    position: static;
+    margin-right: 0;
+    line-height: 18px;
+}
+
+
+
+/*中间内容column_2的样式*/
+.detailContent .column_2 {
+    margin: 0 0 0 30px;
+    width: 770px;
+    float: left;
+}
+.detailContent .contentNav {
+    padding-top: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+.contentNav .nav a {
+    color: #999;
+    font-size: 12px;
+}
+.contentNav .nav a:hover{
+	color: #5C307D;
+}
+.detailContent .contentNav h1 {
+    line-height: 1em;
+    padding:0px 0px 8px 0px;
+    font-size: 28px;
+    color: #5c307d;
+}
+.detailContent .mainContent .article {
+    margin-right: 30px;
+    width: 550px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #444;
+    float: left;
+}
+.content .mainContent .article p {
+    padding: 0.75em 0;
+}
+
+.detailContent .mainContent .articleSub .articleImg {
+    width: 50%;
+    float: left;
+    margin-bottom: 30px;
+}
+.detailContent .mainContent .articleSub figure {
+	background: #f6f6f6;
+    height: 250px;
+    margin: 0 15px;
+}
+.content .mainContent .articleSub figure img {
+    width: 100%;
+}
+.content .mainContent .articleSub figure figcaption {
+    display: block;
+    padding: 1.2em 30px 0 30px;
+}
+.content .mainContent .articleSub figure figcaption a {
+    color: #22132d;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0.3em 0 0.5em 0;
+    display: block;
+}
+.content .mainContent .articleSub figure p {
+    color: #777;
+    padding: 0 30px 0 30px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.content .mainContent .articleSub figure p a, a:link {
+    text-decoration: none;
+    color: #4F608C;
+}
+.content .mainContent .articleSub figure p a:hover{
+	color: #5C307D;
+}
+
+/*中间部分column_3的样式*/
+.detailContent .column_3 {
+    width: 190px;
+    float: left;
+}
+.detailContent .relateLink h4 {
+    font-size: 16px;
+    color: #555;
+    background: #f4f4f4;
+    padding: 1.5em 0 0.75em 0;
+    text-indent: 0.75em;/*段落第一行缩进*/
+}
+.detailContent .relateLink ul {
+    margin-top: 10px;
+    padding-left: 12px;
+}
+.detailContent .relateLink ul li {
+    padding: 4px 0;
+}
+.detailContent .relateLink a {
+    display: block;
+    color: #777;
+    font-size: 10px;
+}
+.detailContent .relateLink a span {
+    float: right;
+}
+.detailContent .relateLink .glyphicon{
+	font-size: 10px;
+	top: 5px;
+}
+.detailContent .relateLink a:hover{
+	color: #5C307D;
+}
+
+
+/*尾部从主页尾部第二部分开始，样式*/
+.footer{
+	clear: both;
+	font-size: 10px;
+}
+.footer .footWrap {
+	/*height: 256px;*/
+	background: #e0e0e0;
+	padding: 20px 0;
+}
+
+.footerMainWrap {
+	/*height: 176px;*/
+	width: 1000px;
+	margin: auto;
+	min-width: 320px;
+}
+
+.footer .footerMainWrap li {
+	width: 125px;
+	float: left;
+	list-style-type: none;
+}
+
+.footer .footerMainWrap h4 {
+	padding-bottom: 8px;
+}
+
+.footer .footerMainWrap h4 a {
+	font-size: 15px;
+	color: #22132d;
+}
+
+.footer .footerMainWrap a {
+	color: #585858;
+	display: block;
+	line-height: 24px;
+	text-align: center;
+}
+
+.footerNav {
+	margin-left: -40px;
+}
+
+
+/*尾部第三部分的样式*/
+
+.footer .copyrights {
+	background: #22132d;
+	color: #a5a2a7;
+	padding: 20px 0;
+	line-height: 22px;
+	/*height: 85px;*/
+}
+
+.copyrightsMainWrap {
+	width: 1000px;
+	margin: auto;
+	min-width: 320px;
+}
+
+.footer .copyrights .info {
+	float: left;
+}
+
+.footer .copyrights .info span {
+	padding-right: 24px;
+}
+
+.footer .copyrights .icp {
+	float: right;
+}
+
+.footer .copyrights .copy {
+	color: #6f6a74;
+	display: block;
+}
+
+
+
+/*header的媒体响应*/
+
+@media screen and (max-width: 760px) {
+	body {
+		line-height: 18px;
+	}
+	.header .navbar-header{
+		background: #f6f6f6;;
+	}
+	.mainWrap {
+		position: relative;
+		width: 100%;
+	}
+	.header .search {
+		/*float: none;*/
+		position: absolute;
+		width: 100%;
+		top: 0;
+		background: #5C307D;
+	}
+	.header .search form .inp {
+		border: 0;
+		float: left;
+		margin-left: 20px;
+		height: 24px;
+		width: 130px;
+		/*margin-top: 5px;*/
+		padding: 5px;
+	}
+	.header .search .searchbtn {
+		background: black;
+		/*float: left;*/
+		height: 24px;
+		line-height: 24px;
+		font-size: 14px;
+		/*margin-top: 5px;*/
+	}
+	.header .search .ext {
+		float: right;
+		padding: 4px 30px 10px 0;
+	}
+	.header .search .ext a {
+		color: #FFFFFF;
+	}
+	.header .topWrap {
+		height: 130px;
+		position: relative;
+	}
+	.header .logo {
+		float: none;
+		margin: auto;
+		display: block;
+		position: absolute;
+		top: 50px;
+		left: 50%;
+		margin-left: -100px;
+	}
+	/*导航的媒体响应*/
+	.navbar-brand {
+		display: block;
+		padding: 15px 35px;
+	}
+	.navbar-nav {
+		margin: 7.5px 0px;
+	}
+	.header .navbar .navbartitle {
+		display: block;
+		clear: both;
+		font-size: 15px;
+		margin-left: 20px;
+	}
+	.navbar-nav .dropdown-menu {
+		display: none;
+	}
+	.navbar-nav .navbartitle .caret {
+		display: none;
+	}
+}
+
+/*content内容column_1的响应式*/
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	.content {
+    padding-bottom: 50px;
+}
+.mainWrap {
+    width: 100%;
+}
+.detailContent .column_1{
+    float: none;
+    width: auto;
+}
+.detailContent .leftNav {
+	width: 100%;
+    border: 0;
+    top: 0;
+    left: 0;
+}
+	.img1{
+		display: none;
+	}
+	.detailContent .leftNav #submenu{
+		line-height: 50px;
+        font-size: 18px; 
+        height: 50px;
+        width: 100%;
+        position: relative;
+        top: -30px;
+        z-index: -1;
+	}
+	.content .navbar-toggle{
+		padding: 0px;
+		position: relative;
+		margin: 10px 11px 0px 0px;
+	}
+	.content .glyphicon{
+		color: #FFFFFF;
+	}
+	.detailContent .leftNav .yehei{
+		margin-top: 0px;
+	}
+	.Wei_Le_Xiang_Ying{
+		height: 50px;
+		overflow: hidden;
+	}
+}
+/*content内容column_2的响应式*/
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+.detailContent .column_2 {
+    margin: 0 0px;
+    width: auto;
+}
+.detailContent .contentNav {
+    padding-top: 12px;
+}
+.contentNav h1 {
+    font-size: 24px;
+}
+.detailContent .contentNav h1{
+    font-size: 24px;
+}
+.detailContent .mainContent .article {
+    margin-right: 30px;
+    width:100%;
+    float: left;
+    padding-bottom: 30px;
+}
+.content .mainContent .articleSub li {
+    margin-bottom: 20px;
+}
+.content .mainContent .articleSub figure {
+    margin: 0 10px;
+    height: 230px;
+}
+}
+
+/*content内容column_3的响应式*/
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+.detailContent .column_3 {
+    width: 140px;
+}
+}
+
+
+
+/*尾部第二部分的响应式样式*/
+
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	.footer .footWrap li {
+         width: 25%;
+         height: auto;
+    }
+	.footer .footWrap a {
+		display: none;
+	}
+		.footer .footWrap h4 a {
+			display: block;
+			font-size: 12px;
+			line-height: 30px;
+		}
+		.footerMainWrap{
+			width: auto;
+		}
+		.footer .footerMainWrap li{
+			
+		}
+}
+/*尾部第三部分响应式样式*/
+@media screen and (max-width: 640px){
+	.footer .copyrights {
+    text-align: center;
+    }
+    .mainWrap {
+    width: 100%;
+    }
+    .footer .copyrights .info {
+    float: none;
+    display: block;
+    padding: 0 30px;
+    }
+    .footer .copyrights .info span {
+    display: block;
+    padding: 0;
+}
+.footer .copyrights .icp {
+    float: none;
+    display: block;
+}
+.copyrightsMainWrap{
+	width: auto;
+}
+}

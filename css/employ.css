@@ -1,0 +1,289 @@
+
+/*content中column_1的样式*/
+.content{
+	padding-bottom: 160px;
+	background: #FFFFFF;
+}
+.content .channeltopimg{
+	text-align: center;
+	background:#f3f3f3;
+	overflow: hidden;
+}
+.content ul,.content li{
+	list-style-type: none;
+}
+.mainWrap {
+    width: 1000px;
+    margin: auto;
+    min-width: 320px;
+}
+.detailContent .column_1 {
+    width: 200px;
+    float: left;
+    position: relative;
+}
+.detailContent .leftNav {
+    border-left: 12px solid #5c307d;
+    position: relative;
+    top: -34px;
+    left: -12px;
+    width: 212px;
+}
+@media only screen and (max-width: 1800px){
+	.content .navbar-brand{
+		display: block;
+	}
+	.navbar-header {
+        float: none;
+    }
+}
+.detailContent .leftNav #submenu {
+    background: #5c307d;
+    color: #fff;
+    font-size: 22px;
+    line-height: 68px;
+    padding: 0 22px;
+    width: 200px;
+    height: 68px;
+}
+.detailContent .leftNav .yehei {
+    border-top: 1px solid #ddd;
+    margin-top: 20px;
+    display: block;
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.current1{
+	position: relative;
+    border-left: 4px solid #ff9600;
+    left: -4px;
+    color: #5C307D;
+}
+.detailContent .leftNav .yehei .current{
+	position: relative;
+	border-bottom: 1px solid #ddd;
+    font-size: 15px;
+    line-height: 22px;	
+    
+}
+.detailContent .leftNav .yehei .current a{
+	color: #22132d;
+	padding: 1em 0 1em 22px;
+	display: block;   
+    margin-right: 28px;
+}
+.detailContent .leftNav .yehei li a:hover{
+	color: #5c307d;
+}
+
+/*column_1中目录导航的样式*/
+.flowmenu{
+	text-align: right;
+	width: 196px;
+	border-right: 4px solid #DDDDDD;
+	line-height: 38px;
+}
+.flowmenu .f1{
+	font-size: 14px;
+	font-weight:bold;
+	padding-right: 20px;
+}
+.flowmenu ul{
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+.flowmenu li {
+    padding: 0 24px 0 0;
+    color: #777;
+    cursor: pointer;
+}
+.flowmenu li.Li_current{
+	position: relative;
+    right: -9px;
+    padding: 0px 0px 0px 0px;
+    color: #444;
+}
+.flowmenu li.Li_current i{
+	display: inline-block;
+}
+.flowmenu ul li i{
+    color: #5C307D;
+    font-size: 10px;
+    margin-left: 19px;
+}
+.flowmenu li i {
+    display: none;
+}
+.flowmenu a{
+	  color: #777;
+}
+
+
+
+
+/*中间内容column_2的样式----------------------------------------------*/
+.detailContent .column_2 {
+    margin: 0 0 0 30px;
+    width: 770px;
+    float: left;
+}
+.detailContent .contentNav {
+    padding-top: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+.contentNav .nav a {
+    color: #999;
+    font-size: 12px;
+}
+.contentNav .nav a:hover{
+	color: #5C307D;
+}
+.detailContent .contentNav h1 {
+    line-height: 1em;
+    padding:0px 0px 8px 0px;
+    font-size: 28px;
+    color: #5c307d;
+}
+.detailContent .mainContent .article {
+    margin-right: 30px;
+    width: 550px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #444;
+    float: left;
+}
+.content .mainContent .article p {
+    padding: 0.75em 0;
+}
+.blankspace{
+	height: 1.5em;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	clear: both;
+}
+.content .mainContent .article .hhh{
+	border-bottom: 1px solid #CCCCCC;
+	font-size: 18px;
+	color:#22132d;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	padding-top: 0.5em;
+}
+
+/*中间部分column_3的样式*/
+.detailContent .column_3 {
+    width: 190px;
+    float: left;
+}
+.detailContent .relateLink h4 {
+    font-size: 16px;
+    color: #555;
+    background: #f4f4f4;
+    padding: 1.5em 0 0.75em 0;
+    text-indent: 0.75em;/*段落第一行缩进*/
+}
+.detailContent .relateLink ul {
+    margin-top: 10px;
+    padding-left: 12px;
+}
+.detailContent .relateLink ul li {
+    padding: 4px 0;
+}
+.detailContent .relateLink a {
+    display: block;
+    color: #777;
+    font-size: 10px;
+}
+.detailContent .relateLink a span {
+    float: right;
+}
+.detailContent .relateLink .glyphicon{
+	font-size: 10px;
+	top: 5px;
+}
+.detailContent .relateLink a:hover{
+	color: #5C307D;
+}
+
+/*响应式样式------------------------------------------------------------------*/
+
+/*content内容column_1的响应式*/
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+.content {
+    padding-bottom: 50px;
+}
+.mainWrap {
+    width: 100%;
+}
+.detailContent .column_1{
+    float: none;
+    width: auto;
+}
+.detailContent .leftNav {
+	width: 100%;
+    border: 0;
+    top: 0;
+    left: 0;
+}
+	.img1{
+		display: none;
+	}
+	.detailContent .leftNav #submenu{
+		line-height: 50px;
+        font-size: 18px; 
+        height: 50px;
+        width: 100%;
+        position: relative;
+        top: -30px;
+        z-index: 1;
+	}
+	.content .navbar-toggle{
+		padding: 0px;
+		position: relative;
+		margin: 10px 11px 0px 0px;
+	}
+	.content button .glyphicon{
+		color: #FFFFFF;
+		z-index: 99;
+	}
+	.detailContent .leftNav .yehei{
+		margin-top: 0px;
+	}
+	.Wei_Le_Xiang_Ying{
+		height: 50px;
+		overflow: hidden;
+	}
+	.flowmenu{
+		display: none;
+	}
+}
+/*content内容column_2的响应式*/
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+.detailContent .column_2 {
+    margin: 0 20px;
+    width: 100%;
+}
+.detailContent .contentNav {
+    padding-top: 12px;
+}
+.contentNav h1 {
+    font-size: 24px;
+}
+.detailContent .contentNav h1{
+    font-size: 24px;
+}
+.detailContent .mainContent .article{
+    margin-right: 30px;
+    width:auto;
+    float: left;
+    padding-bottom: 30px;
+}
+/*content内容column_3的响应式*/
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+.detailContent .column_3 {
+	clear: both;
+    width: 140px;
+}
+}

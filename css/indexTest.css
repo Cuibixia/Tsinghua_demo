@@ -1,0 +1,695 @@
+body {
+	color: #444444;
+	line-height: 20px;
+	font-size: 12px;
+}
+
+
+/*header的样式*/
+
+.header {
+	background: #FFFFFF url(../img/bg.jpg) repeat-x top;
+}
+
+.mainWrap {
+	width: 1000px;
+	margin: auto;
+	min-width: 320px;
+	display: block;
+}
+
+.header .topLine {
+	border-top: 7px solid #5c307d;
+}
+
+.header .topWrap {
+	height: 102px;
+}
+
+.logo {
+	float: left;
+	margin-top: 20px;
+}
+
+img {
+	border: 0px;
+	vertical-align: bottom;
+	/*设置元素垂直对齐方式*/
+}
+
+.header .search {
+	float: right;
+	display: block;
+}
+
+.header .search .ext {
+	padding: 16px 0 10px 0;
+	text-align: right;
+}
+
+a,
+a:link {
+	text-decoration: none;
+}
+
+.header .search .ext a {
+	color: #4d1379;
+	text-align: right;
+}
+
+form {
+	margin: 0;
+	display: block;
+}
+
+input {
+	background: #FFFFFF;
+	font-size: 12px;
+	outline: none;
+	-webkit-user-select: text;
+	cursor: auto;
+}
+
+.header .search .inp {
+	width: 140px;
+	height: 30px;
+	border: 1px solid #b1b1b1;
+	float: left;
+	padding: 0;
+	border-right: 0;
+}
+
+.header .search .searchbtn {
+	background: #5c307d;
+	height: 30px;
+	padding: 0 7px;
+	line-height: 29px;
+	text-align: center;
+	border: 0;
+	float: left;
+	font-size: 16px;
+	color: #FFFFFF;
+	cursor: pointer;
+	top: 0;
+}
+
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+
+
+/*102--150*/
+
+.navbar-collapse {
+	margin: 0;
+	padding: 0;
+}
+
+.header .navbar {
+	border-top: 1px solid #dedede;
+	margin-bottom: 0px;
+}
+
+.navbar-brand {
+	display: none;
+}
+
+.header .navbar-nav li a:hover{
+	background:#5B317D;
+	color: #FFFFFF;
+}
+
+.header .navbar .navbartitle {
+	float: left;
+	padding: 5px 2px 0px 0px;
+	position: relative;
+	zoom: 1;
+}
+
+.header .navbar .dropdown-menu {
+	background: #5C307D;
+	padding: 0;
+	margin: 0;
+	color: #FFFFFF;
+	z-index: 1999;
+	border: 0px;
+}
+
+.header .navbar .dropdown-menu li a {
+	line-height: 38px;
+	font-size: 14px;
+	color: #FFFFFF;
+	padding-left: 20px;
+}
+
+.dropdown-menu>li>a:hover {
+	color: #FFFFFF;
+	background: #4F608C;
+}
+
+.header .navbar .navbartitle {
+	display: block;
+	line-height: 42px;
+	font-size: 15px;
+	color: #333333;
+	padding: 0 14px;
+}
+
+
+/*article中content的样式*/
+
+.content {
+	width: 1200px;
+	/*height: 1800px;*/
+	margin: auto;
+}
+
+.carousel-caption {
+	position: absolute;
+	z-index: 1;
+	width: 1000px;
+	text-align: left;
+	overflow: hidden;
+	bottom: -2px;
+	left: 100px;
+	right: 100px;
+	background: #252525;
+	filter: alpha(opacity=50);
+	opacity: .7;
+	height: 58px;
+}
+
+.carousel-caption a:hover,
+.carousel-caption a .hover {
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.day {
+	position: absolute;
+	right: 0;
+	width: 114px;
+	height: 50px;
+	background: #5c307d;
+	top: 8px;
+	text-align: center;
+	line-height: 50px;
+	font-size: 15px;
+	color: #ffc600;
+	opacity: 1 !important;
+}
+
+.txt {
+	color: #fff;
+	font-size: 18px;
+	padding-left: 30px;
+	white-space: nowrap;
+}
+
+.carousel-indicators-menu {
+	bottom: -48px;
+	background: #5c307d;
+	color: #FFFFFF;
+	width: 1000px;
+	margin-left: 100px;
+	margin-right: 100px;
+	left: 0px;
+	height: 38px;
+	line-height: 38px;
+	cursor: pointer;
+}
+
+
+/*article中mainWrap的样式*/
+
+.content {
+	padding-bottom: 80px;
+}
+
+.mainWrap {
+	width: 1000px;
+	margin: auto;
+	min-width: 320px;
+}
+
+.content .news {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.content h2 {
+	font-size: 20px;
+	line-height: 70px;
+	color: #22132d;
+	text-indent: 22px;
+	zoom: 1;
+}
+
+.content h2 .more {
+	float: right;
+	font-size: 12px;
+	font-family: sans-serif;
+	color: #999;
+	margin-right: 22px;
+}
+
+.content .newsContent {
+	/*height: 175px;*/
+	margin: 0 5px;
+	border-bottom: 1px solid #e9e8ea;
+	padding-bottom: 40px;
+	margin-bottom: 14px;
+}
+
+.date {
+	border: 1px solid #edeaf1;
+	color: #5b317d;
+	background: #edeaf1;
+	width: 58px;
+	border: 1px solid #d8d8d8;
+	text-align: center;
+	font-size: 12px;
+	float: left;
+	padding-bottom: 5px;
+}
+
+.date span {
+	display: block;
+	font-size: 24px;
+	line-height: 24px;
+	padding: 8px 0 2px 0;
+	zoom: 1;
+}
+
+.tn {
+	margin-left: 80px;
+	/*width: 220px;*/
+}
+
+.content .newsContent a {
+	color: #22132D;
+	line-height: 22px;
+	font-size: 16px;
+}
+
+.content .newsContent p {
+	color: #777;
+	padding-top: 8px;
+}
+
+
+/*焦点关注的样式*/
+
+.focusContent-1 {
+	float: left;
+	width: 300px;
+	margin: 0 15px 10px 15px;
+	border-top: 2px solid #5c307d;
+	/* height: 280px;*/
+	overflow: hidden;
+}
+
+.focus .focusContent .focusContent-1 .focusTn {
+	margin-top: 1.4em;
+}
+
+.focusSpan1 a {
+	color: #22132D;
+	line-height: 22px;
+	font-size: 16px;
+}
+
+.focusContent-1 p {
+	color: #777;
+	padding-top: 8px;
+}
+
+.focusimg {
+	width: 300px;
+}
+
+.focusContent .col-lg-4 {
+	padding-left: 0px;
+	padding-right: 0px;
+	/*height: 280px;*/
+}
+
+.focusContent-1-top {
+	border-top: 2px solid #e0823d;
+}
+
+
+/*尾部第一部分的样式*/
+.footer .footerExtra {
+	/*height: 185px;*/
+	background: #f8f7f4;
+	padding: 40px 0;
+}
+
+.footer .footerExtra .footerSpan1-List li a {
+	text-align: left;
+	padding: 10px 20px;
+	color: #444;
+}
+
+.footer .footerExtra .footerSpan1-List li a:hover {
+	color: #5C307D;
+}
+
+.footer .footerExtra .footerSpan1-List li {
+	line-height: 24px;
+	width: 33.3%;
+	float: left;
+	list-style-type: none;
+}
+
+.footerImg {
+	padding-left: 90px;
+}
+
+.footerImg li {
+	float: left;
+	margin-left: 5px;
+	list-style-type: none;
+}
+
+.footer .footerExtraContent {
+	margin: auto;
+	width: 1000px;
+}
+
+.footer .footerSpan1 {
+	width: 480px;
+	margin: 0 125px 0 20px;
+	font-size: 18px;
+	color: #22132d;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	margin-right: 10%;
+}
+
+
+/*尾部第二部分的样式*/
+
+.footer .footWrap {
+	/*height: 256px;*/
+	background: #e0e0e0;
+	padding: 20px 0;
+}
+
+.footerMainWrap {
+	/*height: 176px;*/
+	width: 1000px;
+	margin: auto;
+	min-width: 320px;
+}
+
+.footer .footerMainWrap li {
+	width: 125px;
+	float: left;
+	list-style-type: none;
+}
+
+.footer .footerMainWrap h4 {
+	padding-bottom: 8px;
+}
+
+.footer .footerMainWrap h4 a {
+	font-size: 15px;
+	color: #22132d;
+}
+
+.footer .footerMainWrap a {
+	color: #585858;
+	display: block;
+	line-height: 24px;
+	text-align: center;
+}
+
+.footerNav {
+	margin-left: -40px;
+}
+
+
+/*尾部第三部分的样式*/
+
+.footer .copyrights {
+	background: #22132d;
+	color: #a5a2a7;
+	padding: 20px 0;
+	line-height: 22px;
+	/*height: 85px;*/
+}
+
+.copyrightsMainWrap {
+	width: 1000px;
+	margin: auto;
+	min-width: 320px;
+}
+
+.footer .copyrights .info {
+	float: left;
+}
+
+.footer .copyrights .info span {
+	padding-right: 24px;
+}
+
+.footer .copyrights .icp {
+	float: right;
+}
+
+.footer .copyrights .copy {
+	color: #6f6a74;
+	display: block;
+}
+
+
+/*header的媒体响应*/
+
+@media screen and (max-width: 760px) {
+	body {
+		line-height: 18px;
+	}
+	.mainWrap {
+		width: 100%;
+	}
+	.header .search {
+		/*float: none;*/
+		position: absolute;
+		width: 100%;
+		top: 0;
+		background: #5C307D;
+	}
+	.header .search form .inp {
+		border: 0;
+		float: left;
+		margin-left: 20px;
+		height: 24px;
+		width: 130px;
+		/*margin-top: 5px;*/
+		padding: 5px;
+	}
+	.header .search .searchbtn {
+		background: black;
+		/*float: left;*/
+		height: 24px;
+		line-height: 24px;
+		font-size: 14px;
+		/*margin-top: 5px;*/
+	}
+	.header .search .ext {
+		float: right;
+		padding: 4px 30px 10px 0;
+	}
+	.header .search .ext a {
+		color: #FFFFFF;
+	}
+	.header .topWrap {
+		height: 130px;
+		position: relative;
+	}
+	.header .logo {
+		float: none;
+		margin: auto;
+		display: block;
+		position: absolute;
+		top: 50px;
+		left: 50%;
+		margin-left: -100px;
+	}
+	/*导航的媒体响应*/
+	.navbar-brand {
+		display: block;
+		padding: 15px 20px;
+	}
+	.navbar-nav {
+		margin: 7.5px 0px;
+	}
+	.header .navbar .navbartitle {
+		display: block;
+		clear: both;
+		font-size: 15px;
+		margin-left: 20px;
+	}
+	.navbar-nav .dropdown-menu {
+		display: none;
+	}
+	.navbar-nav .navbartitle .caret {
+		display: none;
+	}
+}
+
+
+/*article的媒体响应*/
+
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	.content {
+		width: 640px;
+	}
+	.carousel-caption {
+		width: 640px;
+		left: 0px;
+		right: 0px;
+	}
+	.carousel-caption a:hover {
+		text-decoration: none;
+		color: #FFFFFF;
+	}
+	.carousel-indicators-menu {
+		margin-left: 0px;
+	}
+	.carousel-indicators-menu li {
+		float: left;
+		/*display: inline;*/
+		padding: 0px 4px;
+	}
+	.glyphicon {
+		top: 13px;
+	}
+}
+
+
+/*头条新闻的响应式*/
+
+@media screen and (max-width: 640px) {
+	h2 {
+		text-indent: 20px;
+		font-size: 16px;
+		line-height: 50px;
+	}
+	.bt a {
+		font-size: 15px;
+		line-height: 20px;
+	}
+	.news .col-md-12,
+	.news .col-xs-12 {
+		margin: 0 20px 20px 0px;
+	}
+}
+
+
+/*焦点关注的响应式样式*/
+
+@media screen and (max-width: 640px) {
+	.focusContent-1 {
+		width: auto;
+		height: auto;
+	}
+	.focusimg {
+		width: 100%;
+	}
+}
+
+
+/*尾部第一部分的响应式样式*/
+
+@media screen and (max-width: 640px) {
+	.footerSpan1-List {
+		float: left;
+	}
+	.footerSpan1-List li {
+		width: auto;
+	}
+	.footerSpan1-List li i {
+		top: 1px;
+	}
+	.footerImg li {
+		float: left;
+		margin-left: 5px;
+		list-style-type: none;
+	}
+	.footerImg {
+		padding-left: 0px;
+	}
+}
+
+
+/*尾部第二部分的响应式样式*/
+
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	.footer .footWrap li {
+         width: 25%;
+         height: auto;
+    }
+	.footer .footWrap a {
+		display: none;
+	}
+		.footer .footWrap h4 a {
+			display: block;
+			font-size: 12px;
+			line-height: 30px;
+		}
+		.footerMainWrap{
+			width: auto;
+		}
+		.footer .footerMainWrap li{
+			
+		}
+}
+/*尾部第三部分响应式样式*/
+@media screen and (max-width: 640px){
+	.footer .copyrights {
+    text-align: center;
+    }
+    .mainWrap {
+    width: 100%;
+    }
+    .footer .copyrights .info {
+    float: none;
+    display: block;
+    padding: 0 30px;
+    }
+    .footer .copyrights .info span {
+    display: block;
+    padding: 0;
+}
+.footer .copyrights .icp {
+    float: none;
+    display: block;
+}
+.copyrightsMainWrap{
+	width: auto;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
