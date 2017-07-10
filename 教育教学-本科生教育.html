@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />		
+		<link rel="stylesheet" href="css/bootstrap.css" charset="UTF-8"/>
+		<script type="text/javascript" src="js/jquery-1.11.3.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="js/bootstrap.js" charset="UTF-8"></script>
+		<link rel="stylesheet" href="css/edu.css" />	
+	</head>
+	<body>
+		
+		<header class="header">
+			<section class="mainWrap">
+				<div class="topLine"></div>
+			 <section class="topWrap">
+				<a class="logo" href="index.html" target="_blank" >
+					<img src="img/Tsinghua-logo.png" />
+				</a>
+			
+			    <section class="search">
+				<div class="ext">
+					<a href="index.html">
+						English Version
+					</a>
+				</div>
+				<form id="searchForm" target="_blank" action="search.html"><!--mark-->
+					<input name="query" type="text" class="inp" />
+					<a href="#" class="searchbtn glyphicon glyphicon-search">			
+					</a>
+				</form>
+			    </section>
+			 </section>
+			<!--导航条-->
+			<nav class="navbar nav-justified">
+				<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="flase">
+						<!--<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>-->
+						<span class="glyphicon glyphicon-align-justify" style="top: 0px;"></span>
+					</button>
+					<a class="navbar-brand" href="#">导航</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li><a  class="navbartitle" href="主页.html">首页</a></li>
+						<li><a class="navbartitle" href="#">清华新闻</a></li>
+						<li class="dropdown">
+							<a href="#" class="navbartitle dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								aria-expanded="false">学校概况<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">校长致词</a></li>
+						        <li><a href="#">学校沿革</a></li>
+						        <li><a href="#">历任领导</a></li>
+						        <li><a href="#">现任领导</a></li>
+						        <li><a href="#">组织机构</a></li>
+						        <li><a href="#">统计资料</a></li>
+							</ul>								
+						</li>
+						<li><a  class="navbartitle" href="#">院系设置</a></li>
+						<li><a  class="navbartitle" href="#">师资队伍</a></li>
+						<!--<li><a href="#">教育教学</a></li>-->
+						<li class="dropdown">
+							<a href="#" class="navbartitle dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								aria-expanded="false">教育教学<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">本科生教育</a></li>
+						        <li><a href="#">研究生教育</a></li>
+						        <li><a href="#">国际学生培养</a></li>
+						        <li><a href="#">继续教育</a></li>
+							</ul>								
+						</li>						
+						<!--<li><a href="#">科学研究</a></li>-->
+						<li class="dropdown">
+							<a href="#" class="navbartitle dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								aria-expanded="false">科学研究<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">科研项目</a></li>
+						        <li><a href="#">科研机构</a></li>
+						        <li><a href="#">科研合作</a></li>
+						        <li><a href="#">科研成果和知识产权</a></li>
+						        <li><a href="#">学术交流</a></li>
+							</ul>								
+						</li>	
+						<!--<li><a href="#">招生就业</a></li>-->
+						<li class="dropdown">
+							<a href="#" class="navbartitle dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								aria-expanded="false">招生就业<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="招生就业-本科生招生.html">本科生招生</a></li>
+						        <li><a href="#">研究生招生</a></li>
+						        <li><a href="#">国际学生招生</a></li>
+						        <li><a href="#">学生职业发展</a></li>
+							</ul>								
+						</li>	
+						<!--<li><a href="#">人才招聘</a></li>-->
+						<li class="dropdown">
+							<a href="#" class="navbartitle dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								aria-expanded="false">人才招聘<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">招聘计划</a></li>
+						        <li><a href="#">招聘信息</a></li>
+						        <li><a href="#">我要应聘</a></li>
+							</ul>								
+						</li>	
+						<li><a  class="navbartitle" href="清华大学图书馆.html">图书馆</a></li>
+						<li class="dropdown">
+							<a href="#" class="navbartitle dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								aria-expanded="false">走进清华<span class="caret"></span>
+							</a>
+							<ul class="dropdown-menu">
+								<li><a href="#">校园生活</a></li>
+						        <li><a href="#">校园风光</a></li>
+						        <li><a href="#">实用信息</a></li>
+							</ul>								
+						</li>	
+					</ul>
+				</div>
+				</div>
+			</nav>
+			</section>
+		</header>
+		
+		<article class="content">
+			<section>
+				<img src="img/edutop_01.jpg" class="img1" />
+			</section>
+			<section class="mainWrap">
+				<div class="detailContent ">
+				<!--第一块--左边-->
+				<div class="column_1">
+					<section class="leftNav">
+						
+					<div class="Wei_Le_Xiang_Ying">	
+					<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" 
+						data-toggle="collapse" data-target="#collapse-1" aria-expanded="flase">
+						<span class="glyphicon glyphicon-align-justify" style="top: 0px;"></span>
+					</button>
+					<a class="navbar-brand" id="submenu" href="#">教育教学</a>
+				    </div>
+				    </div>
+				
+				    <div class="collapse navbar-collapse" id="collapse-1">
+					<ul class="yehei">
+						<li class="current current1">
+							<a href="#">
+								本科生教育
+							</a>
+							<span class="glyphicon glyphicon-minus" style="margin-right: -4px;"></span>
+							<!--<span class="glyphicon glyphicon-plus XiangYing" style="margin-right: -4px;"></span>-->
+							<ul class="list_1 list" style="display: block;">
+								<li><a href="#">本科专业</a></li>
+						        <li><a href="#">本科课程</a></li>
+						        <li><a href="#">教学名师</a></li>
+						        <li><a href="#">精品课程</a></li>
+						        <li><a href="#">实践教学</a></li>
+						        <li><a href="#">教学成果</a></li>
+						        <li><a href="#">特色项目</a></li>
+							</ul>	
+						</li>
+						
+						<li class="current">
+							<a class="" href="#">研究生教育
+							</a><span class="glyphicon glyphicon-plus"></span>
+							<ul class="list">
+						        <li><a href="#">博士教育</a></li>
+						        <li><a href="#">硕士教育</a></li>
+						        <li><a href="#">国际化培养</a></li>
+						        <li><a href="#">授权学科</a></li>
+						        <li><a href="#">学位授予</a></li>
+						        <li><a href="#">奖助体系</a></li>
+							</ul>
+						</li>
+						
+						<li class="current">
+							<a class="" href="#">国际学生培养
+							</a><span class="glyphicon glyphicon-plus"></span>
+							<ul class="list">
+								<li><a href="#">发展概况</a></li>
+						        <li><a href="#">部门联系</a></li>
+							</ul>
+						</li>
+						
+						<li class="current">
+							<a class="" href="#">继续教育
+							</a><span class="glyphicon glyphicon-plus"></span>
+							<ul class="list">
+						        <li><a href="#">发展概述</a></li>
+						        <li><a href="#">教育培训</a></li>
+						        <li><a href="#">教师进修</a></li>
+						        <li><a href="#">教育扶贫</a></li>
+							</ul>
+						</li>
+						
+					</ul>
+					
+				    </div>
+				    
+					</section>
+				
+			    </div>	
+			    
+			    	
+			    <!--第二块--中间-->
+				<div class="column_2">
+					<article class="mainContent">
+						<header class="contentNav">
+							<nav class="nav">
+								<a href="#">首页</a> · <a href="#">教育教学</a> · <a href="#">本科生教育</a>
+							</nav>
+							<h1>本科生教育</h1>
+						</header>
+						<section class="article">
+							<!--内容-->
+							<p>　　清华大学本科教育传承"培养具有为国家社会服务之健全品格的人才"的教育理念，建校至今，
+								共培养了十余万名本科学生。目前设有覆盖理学、工学、文学、历史学、哲学、经济学、管理学、
+								法学、医学和艺术学等10个学科门类共78个本科专业，14个第二学士学位专业。
+								专业结构与布局具有工科专业优势集聚、文理管法特色鲜明、学科交叉形式多样、
+								适应需要规范发展的综合性大学特色。
+							</p>
+							<p>　　学校提供高质量的本科教育。建立价值塑造、能力培养和知识传授“三位一体”的教育模式，
+								坚持和完善世界一流、中国特色、清华风格的教育教学体系，努力培养学生具有健全人格、
+								创新思维、宽厚基础、全球视野和社会责任感。
+							</p>
+							<p>　　学校通过构建研究型本科教学体系，优化本科培养方案、建设优质的课程，持续提升教育质量，
+								使学生通过本科阶段的培养成长为"高素质，高层次，多样化，创造性"的骨干人才。
+							</p>
+							<div class="articleSub">
+								<div class="articleImg">
+									<figure>
+										<a href="#">
+											<img src="img/edu_01.jpg" />
+										</a>
+										<figcaption>
+											<span>
+												<a href="#">本科专业</a>
+											</span>
+										</figcaption>
+										<p>
+											<a href="#">清华大学本科专业设置及培养方案介绍 </a>
+										</p>
+									</figure>
+								</div>
+								<div class="articleImg">
+									<figure>
+										<a href="#">
+											<img src="img/edu_02.jpg" />
+										</a>
+										<figcaption>
+											<span>
+												<a href="#">本科课程</a>
+											</span>
+										</figcaption>
+										<p>
+											<a href="#">简要介绍清华大学本科课程  </a>
+										</p>
+									</figure>
+								</div>
+								<div class="articleImg">
+									<figure>
+										<a href="#">
+											<img src="img/edu_03.jpg" />
+										</a>
+										<figcaption>
+											<span>
+												<a href="#">教学名师</a>
+											</span>
+										</figcaption>
+										<p>
+											<a href="#">简要介绍清华大学国家级教学名师  </a>
+										</p>
+									</figure>
+								</div>
+								<div class="articleImg">
+									<figure>
+										<a href="#">
+											<img src="img/edu_04.jpg" />
+										</a>
+										<figcaption>
+											<span>
+												<a href="#">精品课程</a>
+											</span>
+										</figcaption>
+										<p>
+											<a href="#">简要介绍清华大学国家精品课程  </a>
+										</p>
+									</figure>
+								</div>
+								<div class="articleImg">
+									<figure>
+										<a href="#">
+											<img src="img/edu_05.jpg" />
+										</a>
+										<figcaption>
+											<span>
+												<a href="#">实践教学</a>
+											</span>
+										</figcaption>
+										<p>
+											<a href="#">清华大学实践教育教学体系介绍  </a>
+										</p>
+									</figure>
+								</div>
+								<div class="articleImg">
+									<figure>
+										<a href="#">
+											<img src="img/edu_06.jpg" />
+										</a>
+										<figcaption>
+											<span>
+												<a href="#">教学成果</a>
+											</span>
+										</figcaption>
+										<p>
+											<a href="#">简要介绍清华大学国家级教学成果奖  </a>
+										</p>
+									</figure>
+								</div>
+								<div class="articleImg">
+									<figure>
+										<a href="#">
+											<img src="img/edu_07.jpg" />
+										</a>
+										<figcaption>
+											<span>
+												<a href="#">特色项目</a>
+											</span>
+										</figcaption>
+										<p>
+											<a href="#">简要介绍清华学堂人才培养计划  </a>
+										</p>
+									</figure>
+								</div>								
+							</div>							
+						</section>
+						
+						<div class="column_3">
+							<section class="relateLink">
+								<h4>相关链接</h4>
+								<ul>
+									<li>
+										<a href="#">
+												教务处										
+											<span class="glyphicon glyphicon-chevron-right"></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+												本科生招生										
+											<span class="glyphicon glyphicon-chevron-right"></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+												清华校历										
+											<span class="glyphicon glyphicon-chevron-right"></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+												学生活动									
+											<span class="glyphicon glyphicon-chevron-right"></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+												本科学历认证										
+											<span class="glyphicon glyphicon-chevron-right"></span>
+										</a>
+									</li>
+								</ul>
+							</section>
+						</div>
+						
+					</article>
+				</div>
+								
+				</div>
+			</section>
+		</article>
+		
+		<!--尾部-->
+		<footer class="footer clearfix">
+					
+			<!--尾部第二部分-->
+			<section class="footWrap clearfix">
+				<section class="footerMainWrap clearfix">
+					<nav class="footerNav clearfix">
+						<ul class="clearfix">
+							<li>
+								<h4><a href="#">学校概况</a></h4>
+								<a href="#">校长致辞</a>
+								<a href="#">学校沿革</a>
+								<a href="#">历任领导</a>
+								<a href="#">现任领导</a>
+								<a href="#">组织机构</a>
+								<a href="#">统计资料</a>
+							</li>
+							<li>
+								<h4><a href="#">院系设置</a></h4>
+							</li>
+							<li>
+								<h4><a href="#">师资队伍</a></h4>
+								<a href="#">概况</a>
+								<a href="#">杰出人才</a>
+							</li>
+							<li>
+								<h4><a href="#">教育教学</a></h4>
+								<a href="#">本科生教育</a>
+								<a href="#">研究生教育</a>
+								<a href="#">国际学生培养</a>
+								<a href="#">继续教育</a>
+							</li>
+							<li>
+								<h4><a href="#">科学研究</a></h4>
+								<a href="#">科研项目</a>
+								<a href="#">科研机构</a>
+								<a href="#">科研合作</a>
+								<a href="#">科研成果与知识产权</a>
+								<a href="#">学术交流</a>
+							</li>
+							<li>
+								<h4><a href="#">招生就业</a></h4>
+								<a href="#">本科生招生</a>
+								<a href="#">研究生招生</a>
+								<a href="#">国际学生招生</a>
+								<a href="#">学生职业发展</a>
+							</li>
+							<li>
+								<h4><a href="#">人才招聘</a></h4>
+								<a href="#">招聘计划</a>
+								<a href="#">招聘信息</a>
+								<a href="#">我要应聘</a>
+							</li>
+							<li>
+								<h4><a href="#">走进清华</a></h4>
+								<a href="#">校园生活</a>
+								<a href="#">校园风光</a>
+								<a href="#">实用信息</a>
+							</li>
+						</ul>
+					</nav>
+				</section>
+							
+			</section>
+			
+			<!--尾部第三部分-->
+			<section class="copyrights clearfix">
+				<section class="copyrightsMainWrap">
+					<span class="info">
+						<span>电话查号台：010-62793001</span>
+						<span>管理员信箱：webmaster@tsinghua.edu.cn</span>
+						<span>地址：北京市海淀区清华大学</span>					
+					</span>
+					<span class="icp">京公网安备 110402430053 号</span>
+					
+					<div style="clear: both;overflow: hidden;"></div>
+					<span class="copy">
+						版权所有 © 清华大学　　访问量: 140874612
+					</span>
+				</section>
+			</section>
+		</footer>
+		
+		
+		
+		<script>    
+			$('li.dropdown').mouseover(function() {
+				$(this).addClass('open');    
+			}).mouseout(function() {
+					$(this).removeClass('open');      
+			});
+			$('.glyphicon').click(function(){
+				if(this.className==="glyphicon glyphicon-minus"){
+					$(this).removeClass("glyphicon glyphicon-minus");
+					$(this).addClass("glyphicon glyphicon-plus");
+				}else{
+					$(this).removeClass("glyphicon glyphicon-plus");
+					$(this).addClass("glyphicon glyphicon-minus");
+				}
+				$(".list").eq($(this).parent().index()).siblings().slideDown();
+				$(".list").eq($(this).parent().index()).slideToggle();
+//				$(".list").toggleClass('showList');
+			})
+		</script>
+	</body>
+</html>

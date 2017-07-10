@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" href="css/bootstrap.css" charset="UTF-8" />
+		<script type="text/javascript" src="js/jquery-1.11.3.js" charset="UTF-8"></script>
+		<script type="text/javascript" src="js/bootstrap.js" charset="UTF-8"></script>
+		<link rel="stylesheet" href="css/header-and-footer.css" />
+		<link rel="stylesheet" href="css/employ.css" />
+	</head>
+
+	<body>
+		<header class="header">
+			<section class="mainWrap">
+				<div class="topLine"></div>
+				<section class="topWrap">
+					<a class="logo" href="index.html" target="_blank">
+						<img src="img/Tsinghua-logo.png" />
+					</a>
+
+					<section class="search">
+						<div class="ext">
+							<a href="index.html">
+								English Version
+							</a>
+						</div>
+						<form id="searchForm" target="_blank" action="search.html">
+							<!--mark-->
+							<input name="query" type="text" class="inp" />
+							<a href="#" class="searchbtn glyphicon glyphicon-search">
+							</a>
+						</form>
+					</section>
+				</section>
+				<!--导航条-->
+				<nav class="navbar nav-justified">
+					<div class="container-fluid">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="flase">
+						<!--<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>-->
+						<span class="glyphicon glyphicon-align-justify" style="top: 0px;"></span>
+					</button>
+							<a class="navbar-brand" href="#">导航</a>
+						</div>
+
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+							<ul class="nav navbar-nav">
+								<li><a  class="navbartitle" href="主页.html">首页</a></li>
+								<li>
+									<a class="navbartitle" href="#">清华新闻</a>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="navbartitle dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">学校概况<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">校长致词</a>
+										</li>
+										<li>
+											<a href="#">学校沿革</a>
+										</li>
+										<li>
+											<a href="#">历任领导</a>
+										</li>
+										<li>
+											<a href="#">现任领导</a>
+										</li>
+										<li>
+											<a href="#">组织机构</a>
+										</li>
+										<li>
+											<a href="#">统计资料</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a class="navbartitle" href="#">院系设置</a>
+								</li>
+								<li>
+									<a class="navbartitle" href="#">师资队伍</a>
+								</li>
+								<!--<li><a href="#">教育教学</a></li>-->
+								<li class="dropdown">
+									<a href="#" class="navbartitle dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">教育教学<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="教育教学-本科生教育.html">本科生教育</a>
+										</li>
+										<li>
+											<a href="#">研究生教育</a>
+										</li>
+										<li>
+											<a href="#">国际学生培养</a>
+										</li>
+										<li>
+											<a href="#">继续教育</a>
+										</li>
+									</ul>
+								</li>
+								<!--<li><a href="#">科学研究</a></li>-->
+								<li class="dropdown">
+									<a href="#" class="navbartitle dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">科学研究<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">科研项目</a>
+										</li>
+										<li>
+											<a href="#">科研机构</a>
+										</li>
+										<li>
+											<a href="#">科研合作</a>
+										</li>
+										<li>
+											<a href="#">科研成果和知识产权</a>
+										</li>
+										<li>
+											<a href="#">学术交流</a>
+										</li>
+									</ul>
+								</li>
+								<!--<li><a href="#">招生就业</a></li>-->
+								<li class="dropdown">
+									<a href="#" class="navbartitle dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">招生就业<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">本科生招生</a>
+										</li>
+										<li>
+											<a href="#">研究生招生</a>
+										</li>
+										<li>
+											<a href="#">国际学生招生</a>
+										</li>
+										<li>
+											<a href="#">学生职业发展</a>
+										</li>
+									</ul>
+								</li>
+								<!--<li><a href="#">人才招聘</a></li>-->
+								<li class="dropdown">
+									<a href="#" class="navbartitle dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">人才招聘<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">招聘计划</a>
+										</li>
+										<li>
+											<a href="#">招聘信息</a>
+										</li>
+										<li>
+											<a href="#">我要应聘</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a class="navbartitle" href="清华大学图书馆.html">图书馆</a>
+								</li>
+								<li class="dropdown">
+									<a href="#" class="navbartitle dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">走进清华<span class="caret"></span>
+									</a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">校园生活</a>
+										</li>
+										<li>
+											<a href="#">校园风光</a>
+										</li>
+										<li>
+											<a href="#">实用信息</a>
+										</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</section>
+		</header>
+
+		<article class="content clearfix">
+			<section class="channeltopimg">
+				<img src="img/employ_01.jpg" class="img1" />
+			</section>
+			<section class="mainWrap clearfix">
+				<div class="detailContent clearfix">
+					<div class="column_1">
+						<section class="leftNav">
+							
+							<div class="Wei_Le_Xiang_Ying">
+								<div class="navbar-header">
+									<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-1" aria-expanded="flase">
+						                 <span class="glyphicon glyphicon-align-justify" style="top: 0px;"></span>
+					                </button>
+									<a class="navbar-brand" id="submenu" href="#">教育教学</a>
+								</div>
+							</div>
+
+							<div class="collapse navbar-collapse" id="collapse-1">
+								<ul class="yehei">
+									<li class="current current1">
+										<a href="#">本科生招生</a>
+									</li>
+									<li class="current">
+										<a href="#">研究生招生</a>
+									</li>
+									<li class="current">
+										<a href="#">国际学生招生</a>
+									</li>
+									<li class="current">
+										<a href="#">学生职业发展</a>
+									</li>
+								</ul>
+                            </div>
+						</section>
+						
+						<section class="flowmenu" data-spy="affix" data-offset-top="600" style="top: 0px;">
+							<div class="f1">目录导航</div>
+							<ul>
+								<li class="Li_current"><a href="#one">高考招生</a><i class="glyphicon glyphicon-plane"></i></li>
+								<li><a href="#two">保送生招生</a><i class="glyphicon glyphicon-plane"></i></li>
+								<li><a href="#three">自主招生</a><i class="glyphicon glyphicon-plane"></i></li>
+								<li><a href="#four">领军人才选拔</a><i class="glyphicon glyphicon-plane"></i></li>
+								<li><a href="#five">文体特长生招生</a><i class="glyphicon glyphicon-plane"></i></li>
+								<li><a href="#six">国防、定向生招生</a><i class="glyphicon glyphicon-plane"></i></li>								
+							</ul>
+						</section>
+					
+					</div>
+						
+						<!--第二块-->
+					<div class="column_2">
+						<article class="mainContent clearfix">
+							<header class="contentNav">
+								<nav class="nav">
+								<a href="#">首页</a> · <a href="#">招生就业</a> · <a href="#">本科生招生</a>
+								</nav>
+								<h1>本科生招生</h1>
+							</header>
+							<section class="article">
+								<p>　　多年来，清华大学一直围绕 "综合评价、多元择优、因才施招、促进公平"的人才选拔理念实施本科生招生，
+									特别关注农村优质生源，促进教育公平。目前，已基本形成高考、保送生、自主招生、领军人才选拔、
+									高水平运动员、艺术特长生、国防/定向生、飞行学员班、贫困专项计划、港澳台侨、艺术类（美术学院）等招生类型。
+								</p>
+								<div class="blankspace"></div>
+								<div class="hhh" id="one">高考招生</div>
+								<p>　　高考招生是目前清华大学录取学生最主要的途径。除保送生外，清华大学选拔认定的各类型人才均需参加高考。
+									清华大学全部本科招生专业均在高考招生中投放计划。清华大学根据在各省投放的招生计划与生源质量情况，
+									确定各省高考录取分数线。
+								</p>
+								<p>　　2016年，各省（区、市）最优秀的文理科考生大多把清华大学作为自己的首选目标。清华大学录取的各省（区、市）
+									文理科高考第一名和前十名的数量均在高校中遥遥领先。
+								</p>
+								
+								<div class="blankspace"></div>
+								<div class="hhh" id="two">保送生招生</div>
+								<p>　　目前，清华大学主要招收两类保送生。一类是在高中阶段获得全国中学生奥林匹克竞赛决赛一等奖并被中国科协
+									遴选为参加国际数学、物理、化学、生物学、信息学奥林匹克竞赛国家队集训的应届高中毕业生；另一类是全国16所
+									具有推荐保送生资格的外国语中学的优秀应届高中毕业生。对于前者，清华大学通过举办各学科竞赛选拔营及在各学科
+									奥林匹克竞赛全国总决赛现场通过考核予以录取；对于后者则通过保送生测试进行选拔。
+								</p>
+								
+								<div class="blankspace"></div>
+								<div class="hhh" id="three">自主招生</div>
+								<p>　　2003年，根据《教育部关于做好2003年普通高等学校招生工作的通知》中"关于2003年起在部分高等学校
+									开展自主选拔录取改革试点工作"的决定，清华大学首次开展自主招生工作，并一直延续至今。清华大学自主招生主要
+									招收具有学科特长和创新潜质的优秀高中毕业生。考生需经过申请、初评、初试、复试等清华大学组织的测试选拔环节，
+									通过测试并被认定的考生可获得清华大学给予的在高考录取中享受一定分值降分录取的政策，并将有机会被邀请参与
+									后续特殊培养环节。
+								</p>
+								
+								<div class="blankspace"></div>
+								<div class="hhh" id="four">领军人才选拔</div>
+								<p>  　　为贯彻落实《国务院关于深化考试招生制度改革的实施意见》的精神、根据《清华大学综合改革方案》，
+									清华大学结合自身办学特色和人才培养需要，从2015年开始开展领军人才选拔招生工作。领军人才选拔主要面向志向远大、
+									追求卓越、品学兼优、素质全面，一贯优秀并具创新潜质的普通高中毕业生，其中综合学业成绩排名在全年级前5%优先。
+									考生需经过申请、初评、初试、复试等清华大学组织的测试选拔环节，通过测试并被认定的考生可获得清华大学给予的
+									在高考录取中享受一定分值降分录取的政策，并将有机会被邀请参与后续特殊培养环节。
+								</p>
+								
+								<div class="blankspace"></div>
+								<div class="hhh" id="five">文体特长生招生</div>
+								<p>  　　为培养德、智、体、美全面发展的高层次人才，带动学校学生文体活动的开展，清华大学每年通过举办"艺术特长测试"
+									和"高水平运动员冬令营"进行选拔，认定部分艺术特长生和高水平运动员。申请特长生的考生除需参加相关特长测试外，
+									还需参加文化课测试。清华大学将综合考虑特长生的文化课考试成绩与特长测试成绩给予认定，获得认定的特长生在高考
+									录取中可以享受一定的分数优惠。
+								</p>
+								
+								<div class="blankspace"></div>
+								<div class="hhh" id="six">国防、定向生招生</div>
+								<p>  　　清华大学国防生，是指清华大学根据教育部和中国人民解放军总政治部关于《普通高等学校招收国防生暂行规定》
+									及总政干部部与清华大学签署的《清华大学为军队培养干部意向书》有关规定，结合军队干部队伍建设需要，
+									在军队驻清华大学后备军官选拔培训工作办公室协助下，从参加全国高校统一考试的普通中学应届高中毕业生中，
+									为军队定向招收培养的青年学生。
+								</p>
+								
+							</section>
+							
+							<div class="column_3">
+							<section class="relateLink">
+								<h4>相关链接</h4>
+								<ul>
+									<li>
+										<a href="#">
+												本科招生网										
+											<span class="glyphicon glyphicon-chevron-right"></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+												教务处										
+											<span class="glyphicon glyphicon-chevron-right"></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+												本科生教育									
+											<span class="glyphicon glyphicon-chevron-right"></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+												学生活动									
+											<span class="glyphicon glyphicon-chevron-right"></span>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+												校园风光										
+											<span class="glyphicon glyphicon-chevron-right"></span>
+										</a>
+									</li>
+								</ul>
+							</section>
+						</div>
+							
+							
+						</article>
+					</div>
+					
+				</div>
+			</section>
+		</article>
+		
+		
+		<!--尾部-->
+		<footer class="footer clearfix">
+					
+			<!--尾部第二部分-->
+			<section class="footWrap clearfix">
+				<section class="footerMainWrap clearfix">
+					<nav class="footerNav clearfix">
+						<ul class="clearfix">
+							<li>
+								<h4><a href="#">学校概况</a></h4>
+								<a href="#">校长致辞</a>
+								<a href="#">学校沿革</a>
+								<a href="#">历任领导</a>
+								<a href="#">现任领导</a>
+								<a href="#">组织机构</a>
+								<a href="#">统计资料</a>
+							</li>
+							<li>
+								<h4><a href="#">院系设置</a></h4>
+							</li>
+							<li>
+								<h4><a href="#">师资队伍</a></h4>
+								<a href="#">概况</a>
+								<a href="#">杰出人才</a>
+							</li>
+							<li>
+								<h4><a href="#">教育教学</a></h4>
+								<a href="#">本科生教育</a>
+								<a href="#">研究生教育</a>
+								<a href="#">国际学生培养</a>
+								<a href="#">继续教育</a>
+							</li>
+							<li>
+								<h4><a href="#">科学研究</a></h4>
+								<a href="#">科研项目</a>
+								<a href="#">科研机构</a>
+								<a href="#">科研合作</a>
+								<a href="#">科研成果与知识产权</a>
+								<a href="#">学术交流</a>
+							</li>
+							<li>
+								<h4><a href="#">招生就业</a></h4>
+								<a href="#">本科生招生</a>
+								<a href="#">研究生招生</a>
+								<a href="#">国际学生招生</a>
+								<a href="#">学生职业发展</a>
+							</li>
+							<li>
+								<h4><a href="#">人才招聘</a></h4>
+								<a href="#">招聘计划</a>
+								<a href="#">招聘信息</a>
+								<a href="#">我要应聘</a>
+							</li>
+							<li>
+								<h4><a href="#">走进清华</a></h4>
+								<a href="#">校园生活</a>
+								<a href="#">校园风光</a>
+								<a href="#">实用信息</a>
+							</li>
+						</ul>
+					</nav>
+				</section>
+							
+			</section>
+			
+			<!--尾部第三部分-->
+			<section class="copyrights clearfix">
+				<section class="copyrightsMainWrap">
+					<span class="info">
+						<span>电话查号台：010-62793001</span>
+						<span>管理员信箱：webmaster@tsinghua.edu.cn</span>
+						<span>地址：北京市海淀区清华大学</span>					
+					</span>
+					<span class="icp">京公网安备 110402430053 号</span>
+					
+					<div style="clear: both;overflow: hidden;"></div>
+					<span class="copy">
+						版权所有 © 清华大学　　访问量: 140874612
+					</span>
+				</section>
+			</section>
+		</footer>
+
+
+
+		<script>
+//			header导航的JS
+			$('li.dropdown').mouseover(function() {
+				$(this).addClass('open');
+			}).mouseout(function() {
+				$(this).removeClass('open');
+			});
+			
+//			左边菜单栏的JS
+			$("li.current").click(function(){
+				$(this).addClass("current1")
+				$(this).siblings().removeClass("current1");
+			});
+			
+//			目录导航的JS
+			$(".flowmenu li").click(function(){
+				$(this).addClass("Li_current")
+				$(this).siblings().removeClass("Li_current");
+			});
+		</script>
+	</body>
+
+</html>
